@@ -1,0 +1,15 @@
+a.link {
+    text-decoration: none;
+    color: $redColor;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    &:hover {
+        color: $redColor;
+    }
+    i {
+        color: $redColor;
+        font-size: 10px;
+    }
+}
